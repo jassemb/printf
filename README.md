@@ -8,7 +8,7 @@ Overview: This paper explains how _printf works, and how to design the proper fo
 Include holberton.h Call _printf, passing a formatted string with any format specifiers and optional arguments Upon success, it writes desired output to stdout Upon error, it returns -1 If NULL is passed in as a string argument, it prints (null) Format Specifier.
 
 
-##Format
+## Format
 
 %c print a single character. 
 
@@ -29,7 +29,7 @@ Include holberton.h Call _printf, passing a formatted string with any format spe
 %x or %X print unsigned hexadecimal (x  and  X)  notation. The  letters abcdef are used for x conversions; the let- ters ABCDEF are used for X conversions.
 
 
-##Example Usage
+## Example Usage
 
 _printf ("%c", 'd') prints the character d.
 
@@ -44,7 +44,7 @@ _printf ("%d", 808) prints 808 (signed decimal notation)
 _printf ("%R", "Hello\n") prints "Uryyb", followed by a new line
 
 
-##Files
+## Files
 
 File Name Description (_printf.c) produces output according to a format
 
@@ -56,24 +56,24 @@ f_print2.c, f_print3.c)
 File containing functions for more specifiers (holberton.h) header file with function prototypes and struct for specifiers. 
 
 
-##Running the tests
+## Running the tests
 
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
 $ ./a.out
 
-##About
+## About
 
 Created on Ubuntu 14.04 LTS
 
 Compiled with gcc 4.8.4, using flags: -Wall -Werror -Wextra and -pedantic
 
-##Authors
+## Authors
 
 https://github.com/jassemb
 
 https://github.com/mouadhx04
 
-##License
+## License
 
 This project is licensed under the holberton school License.
