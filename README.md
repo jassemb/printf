@@ -31,6 +31,31 @@ Include holberton.h Call _printf, passing a formatted string with any format spe
 
 ## Example Usage
 
+To use the _printf function you simply need to compile all files .c including the header holberton.h with a main function.
+
+### Example:
+
+main.c
+
+'#include "holberton.h"
+
+int main(void)
+    {
+	     _printf("let's print something using our function!");
+
+   return (0);
+    }
+
+Compilation:
+
+$ gcc *.c -o
+
+Output:
+
+let's print something using our function!
+
+### more examples:
+
 _printf ("%c", 'd') prints the character d.
 
 _printf ("%s", "Hello, world\n") prints "Hello, world", followed by a new line
@@ -40,8 +65,6 @@ _printf ("%%") prints the character %
 _printf ("%i", 415) prints 415 (signed decimal notation)
 
 _printf ("%d", 808) prints 808 (signed decimal notation) 
-
-_printf ("%R", "Hello\n") prints "Uryyb", followed by a new line
 
 
 ## Files
@@ -61,6 +84,7 @@ File containing functions for more specifiers (holberton.h) header file with fun
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
 $ ./a.out
+
 
 ## About
 
