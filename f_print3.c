@@ -49,7 +49,8 @@ int print_rot13(va_list arg)
 			if (str[i] == ch1[j])
 			{
 				str[i] = ch2[j];
-				_putchar(str[i]); j = 53;
+			_putchar(str[i]);
+			j = 53;
 			}
 		}
 	}
