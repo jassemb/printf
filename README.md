@@ -96,8 +96,6 @@ Compiled with gcc 4.8.4, using flags: -Wall -Werror -Wextra and -pedantic
 
 https://github.com/jassemb
 
-https://github.com/youssefboussaid
-
 ## License
 
 This project is licensed under the holberton school License.
